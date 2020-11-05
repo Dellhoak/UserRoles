@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "559740907374",
+    "firebase_url": "https://userroles-25939.firebaseio.com",
+    "project_id": "userroles-25939",
+    "storage_bucket": "userroles-25939.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559740907374:android:3f95f99e94c944291fdb7f",
+        "android_client_info": {
+          "package_name": "com.dellhoak.userroles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559740907374-c74d66rdh3kt82gt2u03i2rba98780db.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAraJJEY46z_aqPhE2BnTed8rHN37Q8jGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559740907374-c74d66rdh3kt82gt2u03i2rba98780db.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
