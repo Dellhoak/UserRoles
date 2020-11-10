@@ -12,6 +12,9 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.gdacciaro.iOSDialog.iOSDialog;
+import com.gdacciaro.iOSDialog.iOSDialogBuilder;
+import com.gdacciaro.iOSDialog.iOSDialogClickListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
@@ -136,6 +139,30 @@ public class Register extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        new iOSDialogBuilder(Register.this)
+                .setTitle("Are you sure you want to EXIT")
+                .setSubtitle("Click ok To Exit")
+                .setBoldPositiveLabel(true)
+                .setCancelable(false)
+                .setPositiveListener("ok",new iOSDialogClickListener() {
+                    @Override
+                    public void onClick(iOSDialog dialog) {
+                        finish();
+
+                    }
+                })
+                .setNegativeListener("Dismiss", new iOSDialogClickListener() {
+                    @Override
+                    public void onClick(iOSDialog dialog) {
+                        dialog.dismiss();
+                    }
+
+                })
+                .build().show();
     }
 
     public boolean checkField(EditText textField){

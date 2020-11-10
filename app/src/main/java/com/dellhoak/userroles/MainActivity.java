@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.gdacciaro.iOSDialog.iOSDialog;
+import com.gdacciaro.iOSDialog.iOSDialogBuilder;
+import com.gdacciaro.iOSDialog.iOSDialogClickListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -63,5 +66,29 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        new iOSDialogBuilder(MainActivity.this)
+                .setTitle("Are you sure you want to EXIT")
+                .setSubtitle("Click ok To Exit")
+                .setBoldPositiveLabel(true)
+                .setCancelable(false)
+                .setPositiveListener("ok",new iOSDialogClickListener() {
+                    @Override
+                    public void onClick(iOSDialog dialog) {
+                        finish();
+
+                    }
+                })
+                .setNegativeListener("Dismiss", new iOSDialogClickListener() {
+                    @Override
+                    public void onClick(iOSDialog dialog) {
+                        dialog.dismiss();
+                    }
+
+                })
+                .build().show();
     }
 }
