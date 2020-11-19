@@ -2,9 +2,14 @@
   <library name="Gradle: com.firebaseui:firebase-ui-firestore:4.1.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8016b1139706ddaddb76d5735ebf61e8/jetified-firebase-ui-firestore-4.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b708fdb8072d37d1a834ad2947afc528/jetified-firebase-ui-firestore-4.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b708fdb8072d37d1a834ad2947afc528/jetified-firebase-ui-firestore-4.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b708fdb8072d37d1a834ad2947afc528/jetified-firebase-ui-firestore-4.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7af377d3d31818035c023361466fccc0/jetified-firebase-ui-firestore-4.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18423e01f25bbc31f67a074dd9e058a1/jetified-firebase-ui-firestore-4.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18423e01f25bbc31f67a074dd9e058a1/jetified-firebase-ui-firestore-4.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/18423e01f25bbc31f67a074dd9e058a1/jetified-firebase-ui-firestore-4.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c254cf1ac86265dad919ba43aa960a77/jetified-firebase-ui-firestore-4.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c254cf1ac86265dad919ba43aa960a77/jetified-firebase-ui-firestore-4.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c254cf1ac86265dad919ba43aa960a77/jetified-firebase-ui-firestore-4.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-firestore/4.1.0/1454b80c088748d876abb57a5c5583ca4fe5861e/firebase-ui-firestore-4.1.0-javadoc.jar!/" />

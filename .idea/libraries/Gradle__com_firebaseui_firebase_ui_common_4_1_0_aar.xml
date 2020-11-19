@@ -2,9 +2,14 @@
   <library name="Gradle: com.firebaseui:firebase-ui-common:4.1.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/829cf325f69933a145aa4daf7a5dc216/jetified-firebase-ui-common-4.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29f76497554c67526b536129ec8ecf9b/jetified-firebase-ui-common-4.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29f76497554c67526b536129ec8ecf9b/jetified-firebase-ui-common-4.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29f76497554c67526b536129ec8ecf9b/jetified-firebase-ui-common-4.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b8d8ede299b733d3f5636a48b91bade7/jetified-firebase-ui-common-4.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cca3c489862ffa53466c07faa7ac10a5/jetified-firebase-ui-common-4.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cca3c489862ffa53466c07faa7ac10a5/jetified-firebase-ui-common-4.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cca3c489862ffa53466c07faa7ac10a5/jetified-firebase-ui-common-4.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aee57b21cbc11186149fb75154091cbc/jetified-firebase-ui-common-4.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aee57b21cbc11186149fb75154091cbc/jetified-firebase-ui-common-4.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aee57b21cbc11186149fb75154091cbc/jetified-firebase-ui-common-4.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/4.1.0/d4babc3409049504040d4390c090cf33fe37f947/firebase-ui-common-4.1.0-javadoc.jar!/" />

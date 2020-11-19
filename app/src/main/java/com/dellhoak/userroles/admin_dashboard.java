@@ -128,6 +128,13 @@ public class admin_dashboard extends AppCompatActivity {
         public modeViewHolder(@NonNull View itemView) {
             super(itemView);
             title = itemView.findViewById(R.id.textviewcardholder);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                }
+            });
         }
     }
 
